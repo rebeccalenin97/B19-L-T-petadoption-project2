@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Happy Tails • Volunteer</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Volunteer With Us</h1>
+  <nav>
+    <a href="index.html">Available Pets</a>
+    <a href="adoption.html">Adoption Process</a>
+    <a href="stories.html">Success Stories</a>
+    <a class="active" href="volunteer.html">Volunteer</a>
+  </nav>
+</header>
+
+<main>
+  <form class="form" onsubmit="return false">
+    <label for="name">Full Name</label>
+    <input id="name" type="text" required>
+
+    <label for="email">Email</label>
+    <input id="email" type="email" required>
+
+    <fieldset>
+      <legend>Areas you’d like to help</legend>
+      <label><input type="checkbox"> Dog Walking</label>
+      <label><input type="checkbox"> Cat Care</label>
+      <label><input type="checkbox"> Adoption Events</label>
+      <label><input type="checkbox"> Photography</label>
+    </fieldset>
+
+    <label for="msg">Tell us why you’d like to volunteer</label>
+    <textarea id="msg" rows="4"></textarea>
+
+    <button class="btn submit" type="submit">Submit Application</button>
+  </form>
+</main>
+
+<footer>© 2025 Happy Tails</footer>
+</body>
+</html>

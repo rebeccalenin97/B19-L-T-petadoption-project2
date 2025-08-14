@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Happy Tails • Available Pets</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>🐾 Happy Tails Animal Shelter</h1>
+  <nav>
+    <a class="active" href="index.html">Available Pets</a>
+    <a href="adoption.html">Adoption Process</a>
+    <a href="stories.html">Success Stories</a>
+    <a href="volunteer.html">Volunteer</a>
+  </nav>
+</header>
+
+<main>
+  <h2>Meet Our Adoptable Pets</h2>
+
+  <!-- Filters (radio hack) -->
+  <div class="filters">
+    <input type="radio" id="filter-all"   name="pet-filter" checked>
+    <label for="filter-all">All</label>
+  </div>
+
+  <!-- Grid (must be a sibling of radios for the CSS ~ selector) -->
+  <section class="pet-grid">
+    <a class="pet-card dog" href="buddy.html">
+      <img loading="lazy" src="images\buddy.jpg" alt="Buddy the dog">
+      <div class="card-body">
+        <h3>Buddy</h3>
+        <div class="tags">
+          <span class="tag">Playful</span><span class="tag">Young</span><span class="tag">Good with kids</span>
+        </div>
+      </div>
+    </a>
+
+    <a class="pet-card cat" href="luna.html">
+      <img loading="lazy" src="images/luna.jpg" alt="Luna the cat">
+      <div class="card-body">
+        <h3>Luna</h3>
+        <div class="tags">
+          <span class="tag">Shy</span><span class="tag">Calm</span><span class="tag">Indoor</span>
+        </div>
+      </div>
+    </a>
+
+    <a class="pet-card dog" href="max.html">
+      <img loading="lazy" src="images/max.jpg" alt="Max the dog">
+      <div class="card-body">
+        <h3>Max</h3>
+        <div class="tags">
+          <span class="tag">Energetic</span><span class="tag">Friendly</span><span class="tag">House-trained</span>
+        </div>
+      </div>
+    </a>
+
+    <a class="pet-card cat" href="mittens.html">
+      <img loading="lazy" src="images/mittens.jpg" alt="Mittens the cat">
+      <div class="card-body">
+        <h3>Mittens</h3>
+        <div class="tags">
+          <span class="tag">Cuddly</span><span class="tag">Playful</span><span class="tag">Vaccinated</span>
+        </div>
+      </div>
+    </a>
+  </section>
+  
+</main>
+
+<footer>© 2025 Happy Tails<break> 
+  <h4> Sandra Shaju</h4>
+  <h4>Nandhitha Sri V</h4>
+  <h4>Rebecca Lenin Koshy</h4></break></footer>
+</body>
+</html>
